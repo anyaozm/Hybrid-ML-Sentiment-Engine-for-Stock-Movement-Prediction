@@ -1,1 +1,11 @@
-# Placeholder for requirements.txt
+yfinance
+scikit-learn
+pandas
+numpy
+matplotlib
+nltk
+streamlit
+tweepy
+textblob
+torch
+transformers
