@@ -1,4 +1,52 @@
-# Ignore Python environments
-.venv/
+# === Python ===
 __pycache__/
-*.pyc
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# === Virtual Environments ===
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# === Jupyter ===
+.ipynb_checkpoints/
+
+# === Logs and runtime files ===
+*.log
+*.pid
+*.sqlite3
+
+# === System Files ===
+.DS_Store
+Thumbs.db
+
+# === PyTorch & Tensorflow Cache ===
+*.pth
+*.ckpt
+*.pb
+*.tflite
+*.h5
+*.onnx
+
+# === Data Files ===
+*.csv
+*.tsv
+*.zip
+*.gz
+*.npz
+*.npy
+
+# === VSCode ===
+.vscode/
+
+# === JetBrains ===
+.idea/
+
+# === Git ===
+*.orig
